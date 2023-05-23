@@ -53,8 +53,8 @@ public class BookBorrowMan extends main {
             }
         });
 
-        panelGradient1.setBackground(new java.awt.Color(102, 255, 153));
-        panelGradient1.setColorGradient(new java.awt.Color(51, 255, 51));
+        panelGradient1.setBackground(new java.awt.Color(74, 42, 49));
+        panelGradient1.setColorGradient(new java.awt.Color(106, 29, 33));
 
         borrowedTable.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         borrowedTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -217,7 +217,9 @@ public class BookBorrowMan extends main {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(panelGradient1, javax.swing.GroupLayout.DEFAULT_SIZE, 720, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(panelGradient1, javax.swing.GroupLayout.DEFAULT_SIZE, 357, Short.MAX_VALUE)
+                .addGap(363, 363, 363))
         );
 
         setSize(new java.awt.Dimension(1290, 750));
